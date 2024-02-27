@@ -5,5 +5,6 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 export default defineConfig({
   base: '/myportfolio/',
   plugins: [reactRefresh()],
+
 });
 
