@@ -3,8 +3,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/myportfolio/',
+  base: '/myportfolio',
   plugins: [reactRefresh()],
-
 });
 
