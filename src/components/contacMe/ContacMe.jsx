@@ -1,8 +1,11 @@
+// REACT
+import { FaInstagram, FaWhatsapp, FaLinkedin } from "react-icons/fa6";
 import React from 'react'
+// ESTILOS
 import '../contacMe/ContacMe.css'
+//COMPONENTES
 import ContactMeCard from './contactMeCard/ContactMeCard'
 import ContactForm from './contactForm/ContactForm'
-import { FaInstagram, FaWhatsapp, FaLinkedin } from "react-icons/fa6";
 
 
 

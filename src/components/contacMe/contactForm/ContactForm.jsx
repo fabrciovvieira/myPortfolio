@@ -1,4 +1,7 @@
+// REACT
 import React, { useState } from 'react'
+
+//ESTILOS
 import "../contactForm/ContactForm.css"
 
 const ContactForm = () => {

@@ -1,7 +1,10 @@
+// REACT
 import React from 'react'
-import '../contactMeCard/ContactMeCard.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { FaGithub } from "react-icons/fa";
+//ESTILOS
+import '../contactMeCard/ContactMeCard.css'
+
 
 
 
