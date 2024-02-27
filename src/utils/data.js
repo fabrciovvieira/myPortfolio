@@ -79,9 +79,9 @@ export const PROJECTS = [
     {
         title: "Lista de Tarefas",
         technologies: [
-            "HTML5 - 25.8%%",
-            "CSS3 - 20.4%%",
-            "JavaScript - 53.8%%"
+            "HTML5 - 25.8%",
+            "CSS3 - 20.4%",
+            "JavaScript - 53.8%"
         ],
         link: "https://github.com/fabrciovvieira/listaDeTarefas",
         description: "Este é um aplicativo de lista de tarefas simples construído utilizando HTML, CSS e JavaScript. Com ele, você pode facilmente gerenciar suas tarefas diárias de forma organizada. As tarefas são armazenadas localmente no navegador usando o Local Storage, o que significa que mesmo se você fechar a página ou recarregar, suas tarefas serão mantidas e você pode retomar de onde parou. Além disso, você pode editar, fixar, marcar como concluída ou excluir as tarefas conforme necessário."
@@ -89,9 +89,9 @@ export const PROJECTS = [
     {
         title: "Calculadora IMC em React",
         technologies: [
-            "HTML5 - 6.9%%",
-            "CSS3 - 40.8%%",
-            "JavaScript - 52.3%%"
+            "HTML5 - 6.9%",
+            "CSS3 - 40.8%",
+            "JavaScript - 52.3%"
         ],
         link: "https://github.com/fabrciovvieira/calculadora_com_react/tree/main",
         description: "Esta é uma calculadora simples e intuitiva, construída com React para facilitar seus cálculos diários. Com um visor claro e botões de operação, você pode realizar operações básicas de adição, subtração, multiplicação e divisão de forma fácil e rápida. O visor exibe os números conforme você os digita, mantendo-o atualizado durante seus cálculos. Os botões de 'soma', 'subtração', multiplicação (x) e 'divisão' estão prontos para uso, permitindo que você execute operações matemáticas simples de forma rápida. Se cometer um erro ou quiser começar uma nova operação, basta clicar no botão 'AC' para limpar o visor e recomeçar do zero."

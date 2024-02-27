@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; 
 import NavBar from "./components/navBar/NavBar.jsx";
 import Hero from "./components/hero/Hero.jsx";
 import Skills from "./components/skills/Skills.jsx";
