@@ -38,11 +38,10 @@ const NavBar = () => {
               <button className='contact-btn'>Fale comigo</button>
             </a>
           </ul>
-
           <button className='menu-btn' onClick={toggleMenu}>
-          {openMenu ? <IoIosClose  size={"2rem"} onClick={toggleMenu} /> : <IoIosMenu size={"2rem"} onClick={toggleMenu} />}
+          {openMenu ? <IoIosClose className='icone-menu' onClick={toggleMenu} /> : <IoIosMenu className='icone-menu' onClick={toggleMenu} />}
           </button>
-        </div>
+          </div>
       </nav>
     </>
   )
