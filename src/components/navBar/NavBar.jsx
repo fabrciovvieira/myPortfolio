@@ -39,7 +39,7 @@ const NavBar = () => {
             </a>
           </ul>
             <button className='menu-btn' onClick={toggleMenu}>
-              {openMenu ? <IoIosClose onClick={toggleMenu}/> : <IoIosMenu onClick={toggleMenu} />}
+              {openMenu ? <IoIosClose className='icone-btn-menu' onClick={toggleMenu}/> : <IoIosMenu className='icone-btn-menu' onClick={toggleMenu} />}
             </button>
         </div>
       </nav>
