@@ -98,7 +98,7 @@
   transition: all 0.4s ease;
 }
 
-.icone-menu{
+.icone-btn-menu{
   font-size: 2rem;
   text-align: center;
   display: flex;
@@ -116,6 +116,10 @@
   .logo {
     width: 10rem;
     height: auto;
+  }
+
+  .icone-btn-menu{
+    margin-right: 1rem;
   }
 }
 
