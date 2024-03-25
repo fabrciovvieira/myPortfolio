@@ -88,7 +88,7 @@
   font-size: 1.5rem;
   display: none;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   border: none;
   border-radius: 0.4rem;
   color: #fff;
@@ -131,3 +131,11 @@
     padding: 0 0.2rem;
   }
 }
+
+@media (max-width: 320px) {
+  .icone-btn-menu {
+    text-align: center;
+    padding: auto;
+  }
+}
+
