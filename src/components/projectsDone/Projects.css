@@ -1,5 +1,5 @@
 .project-container {
-    margin: 4rem 0;
+    margin: 4rem auto;
     position: relative;
 }
 
@@ -24,6 +24,7 @@
     top: 55%;
     z-index: 2;
     cursor: pointer;
+    margin: auto;
 }
 
 .arrow-left .arrow,
