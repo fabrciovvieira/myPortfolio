@@ -105,6 +105,7 @@ export const PROJECTS = [
             "JavaScript - 64.7%"
         ],
         link_repo: "https://github.com/fabrciovvieira/api_TMDB_Com_React",
+        link_acao: "https://fabrciovvieira.github.io/api_TMDB_Com_React",
         description: "O Movie Explorer é um aplicativo web desenvolvido em React que utiliza a API do TMDb (The Movie Database) para fornecer informações detalhadas sobre filmes. Com uma interface intuitiva e amigável, você pode explorar os top filmes em exibição, pesquisar por títulos específicos e descobrir detalhes completos de cada filme."
     },
 ]
