@@ -34,22 +34,18 @@ export const WORK_EXPERIENCE = [
     {
         title: "Analista de Suporte Técnico",
         date: "Agosto 2017 - Março 2022",
-        responsabilities: [
-            "Fornecer suporte técnico remoto aos clientes do software Nex da Nextar, ajudando-os a resolver problemas e entender as funcionalidades.",
-            "Diagnosticar e resolver questões técnicas, incluindo bugs, erros de sistema e configurações do software.",
-            "Comunicar soluções técnicas de forma clara para clientes com diferentes níveis de conhecimento técnico.",
-            "Colaborar com a equipe de suporte técnico para resolver problemas complexos e melhorar o serviço aos clientes.",
-           
+        responsabilities:  [
+            "Trabalhei como analista de suporte técnico via chat e telefone, atendendo clientes simultaneamente com problemas relacionados ao software Nex, um software de gestão comercial. O atendimento era feito de forma remota pelo LogMeIn, Intercon, Team Viewer e Anydesk, sempre acompanhando métricas, diminuindo o SLA e garantindo a entrega da solução com assertividade.",
+            "Também era responsável pela criação e manutenção de modelos de impressão, com o FastReport, uma ferramenta baseada em Delphi.",
+            "Nesse trabalho, desenvolvi minhas principais habilidades e onde me encontrei profissionalmente. Me destaquei por manter a calma em situações desafiadoras, atendimento humanizado, escuta ativa e empatia, essas habilidades me fizeram crescer profissionalmente na empresa e me tornar referência de atendimento de impressoras não fiscais, A4, balanças e demais periféricos, também fiz tutorias, ensinando e desenvolvendo as pessoas recém contratadas."
         ]
     },
     {
         title: "Atendimento ao Cliente",
-        date: "Fevereiro 2023 - Novembro 2023",
+        date: "Julho 2022 - Outubro 2023",
         responsabilities: [
-            "Servir bebidas e alimentos aos clientes de forma amigável e eficiente para proporcionar uma ótima experiência.",
-            "Manter um atendimento ágil e eficiente, especialmente em momentos de movimento intenso.",
-            "Lidar profissionalmente com reclamações e problemas dos clientes para garantir a satisfação.",
-            "Ter excelentes habilidades de comunicação para interagir de forma clara e atender às necessidades dos clientes."
+            "Durante minha passagem morando na Irlanda, tive diversos trabalhos, pois meu foco era desenvolver meu inglês. Entre esses trabalhos, o que me destaquei e que faz parte do meu objetivo profissional, foi meu trabalho como barman.",
+            "Trabalhei pouco mais de 1 ano em um movimentado pub irlandês, pude usar e desenvolver habilidades que obtive nas minhas experiências anteriores. Sempre mantendo foco no cliente, trabalhando sob pressão na maior parte do tempo, habilidade de trabalhar em equipe e de comunicação."
         ]
     },
 ]
@@ -64,6 +60,7 @@ export const PROJECTS = [
             "JavaScript - 87.7%"
         ],
         link_repo: "https://github.com/fabrciovvieira/Quiz_With_React",
+        link_acao: "https://fabrciovvieira.github.io/Quiz_With_React/",
         description: "Quiz em React com quatro categorias desafiadoras: Futebol, Geografia, História e Todas. Este projeto interativo permite que os usuários testem seus conhecimentos em uma variedade de áreas, respondendo a 10 perguntas em cada categoria. Você pode escolher uma categoria específica ou desafiar-se com todas elas juntas. Durante o jogo, os jogadores têm a opção de pedir dicas quando estiverem em dúvida ou excluir uma resposta errada para melhorar suas chances. No final de cada rodada, a pontuação é exibida para que você possa acompanhar seu progresso."
     },
     {
@@ -85,7 +82,8 @@ export const PROJECTS = [
             "JavaScript - 52.3%"
         ],
         link_repo: "https://github.com/fabrciovvieira/calculadora_com_react/tree/main",
-        description: "Esta é uma calculadora simples e intuitiva, construída com React para facilitar seus cálculos diários. Com um visor claro e botões de operação, você pode realizar operações básicas de adição, subtração, multiplicação e divisão de forma fácil e rápida. O visor exibe os números conforme você os digita, mantendo-o atualizado durante seus cálculos. Os botões de 'soma', 'subtração', multiplicação (x) e 'divisão' estão prontos para uso, permitindo que você execute operações matemáticas simples de forma rápida. Se cometer um erro ou quiser começar uma nova operação, basta clicar no botão 'AC' para limpar o visor e recomeçar do zero."
+        link_acao: "https://fabrciovvieira.github.io/CalculadoraIMC_emREACT/",
+        description: "Esta aplicação de Calculadora de IMC, desenvolvida em React, permite aos usuários inserir seu peso e altura para calcular o IMC instantaneamente. Além de fornecer o IMC, a calculadora oferece uma avaliação do estado nutricional, indicando se a pessoa está abaixo do peso, com peso normal, sobrepeso ou obesidade. Com uma interface intuitiva e fácil de usar, é uma ferramenta valiosa para quem deseja monitorar a saúde e tomar decisões informadas sobre hábitos alimentares e estilo de vida. É uma maneira eficaz de promover uma vida mais saudável e consciente."
     },
     {
         title: "Contador Regressivo em React",
@@ -106,6 +104,12 @@ export const PROJECTS = [
         ],
         link_repo: "https://github.com/fabrciovvieira/api_TMDB_Com_React",
         link_acao: "https://fabrciovvieira.github.io/api_TMDB_Com_React",
-        description: "O Movie Explorer é um aplicativo web desenvolvido em React que utiliza a API do TMDb (The Movie Database) para fornecer informações detalhadas sobre filmes. Com uma interface intuitiva e amigável, você pode explorar os top filmes em exibição, pesquisar por títulos específicos e descobrir detalhes completos de cada filme."
+        description: "Esse projeto é um aplicativo web desenvolvido em React que utiliza a API do TMDb (The Movie Database) para fornecer informações detalhadas sobre filmes. Com uma interface intuitiva e amigável, você pode explorar os top filmes em exibição, pesquisar por títulos específicos e descobrir detalhes completos de cada filme."
     },
 ]
+
+export const ABOUT = [
+    {
+        aboutMe: "Em 2017, tive a primeira oportunidade na área de tecnologia, como Analista de Suporte Técnico na Nextar, uma empresa SAAS. Após alguns meses, devido à minha habilidade de solucionar problemas e rápido aprendizado, fui promovido para a equipe técnica.\n Segui aprimorando minhas habilidades, sempre com foco no cliente, trabalho em equipe e comunicação assertiva, inteligênica emocional, me tornei Analista Sênior e referência na área de periféricos, equipamentos e atendimento humanizado.\n Em 2022, com o principal intuito de aprimorar meu inglês e conhecimento sobre outras culturas, decidi fazer um intercâmbio na Irlanda, onde passei 2 anos e desenvolvi novas habilidades interpessoais, como maior empatia, adaptabilidade e flexibilidade. Trabalhei em diversas áreas e conquistei o nível de proficiência C1 no inglês. \nAtualmente, meu objetivo é voltar a trabalhar como analista de suporte, pois foi uma área em que me encontrei profissionalmente. Sou um profissional que busca intensamente novos conhecimentos e colaborar em equipes dinâmicas."
+    }
+];

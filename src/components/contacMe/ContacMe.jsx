@@ -11,8 +11,8 @@ import ContactForm from './contactForm/ContactForm'
 
 const ContacMe = () => {
 
-  const whatsappNumber = "+3530832087330"; // Substitua pelo seu número de telefone do WhatsApp
-  const message = "Olá! Estou entrando em contato através do seu site.";
+  const whatsappNumber = "+5548996571225"; // Substitua pelo seu número de telefone do WhatsApp
+  const message = "Olá! Estou entrando em contato através do seu portfólio.";
 
   // Formatando o link do WhatsApp
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
