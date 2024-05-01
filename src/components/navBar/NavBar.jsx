@@ -26,6 +26,9 @@ const NavBar = () => {
               <a href="hero" className="menu-item">Início</a>
             </li>
             <li>
+              <a href="#aboutME" className="menu-item">Sobre mim</a>
+            </li>
+            <li>
               <a href="#skills" className="menu-item">Habilidades</a>
             </li>
             <li>

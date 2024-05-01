@@ -6,6 +6,7 @@ import WorkExperience from "./components/workExperience/WorkExperience.jsx";
 import ContacMe from "./components/contacMe/ContacMe.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import Projects from "./components/projectsDone/Projects.jsx";
+import AboutMe from './components/aboutMe/AboutMe.jsx';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <NavBar />
             <div className="container">
                 <Hero />
+                <AboutMe />
                 <Skills />
                 <Projects />
                 <WorkExperience />
