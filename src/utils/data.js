@@ -28,6 +28,15 @@ export const SKILLS = [
             { skill: "Inglês C1", percentage: "90%" },
         ],
     },
+    {
+        title: "Certificados",
+        icon: "GrCertificate",
+        skills: [
+            {skill: "Formação FrontEnd", percentage: "100%" },
+            {skill: "Git e Github do básico ao avançado", percentage: "55%" },
+            {skill: "React - Guia completo", percentage: "5%" },
+        ]
+    }
 ];
 
 export const WORK_EXPERIENCE = [

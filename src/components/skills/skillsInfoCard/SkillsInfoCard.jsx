@@ -1,11 +1,20 @@
 import React from 'react'
 import '../skillsInfoCard/SkillsInfoCard.css'
+import { MdDownload } from "react-icons/md";
+import certificadoFrontEnd from '../../../certificados/frontEndCertificado.pdf'
+
 
 const SkillsInfoCard = ({ heading, skills }) => {
+
   return (
     <div className='skills-info-card'>
-        <h6>{heading}</h6>
-
+        {heading === 'Certificados' ? (
+            <h6 className='h6-certificado'>{heading}<a href={certificadoFrontEnd} download>
+                <MdDownload />
+            </a> </h6>
+        ):(
+            <h6>{heading}</h6>
+        )}
         <div className="skills-info-content">
             {skills.map((item, index) => (
                 <React.Fragment key={`skill_${index}`}> 

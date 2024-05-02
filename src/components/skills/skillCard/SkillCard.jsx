@@ -3,6 +3,7 @@ import '../skillCard/SkillCard.css'
 import { MdOutlineWeb } from "react-icons/md"
 import { FaLaptopCode } from "react-icons/fa"
 import { GiSkills } from "react-icons/gi"
+import { GrCertificate } from "react-icons/gr";
 
 const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
 
@@ -18,6 +19,9 @@ const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
     case 'GiSkills':
       IconComponent = GiSkills;
       break;
+    case 'GrCertificate':
+      IconComponent = GrCertificate
+      break
     default:
       break;
   }
@@ -28,7 +32,7 @@ const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
         <div className="skill-icon">
             <IconComponent className="icones-skills" size={100} color={"#7c5fe6"}/>
         </div>
-        <span>{title}</span>
+          <span>{title}</span>
     </div>
   )
 }
